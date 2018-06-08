@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Ustawienia mapy">
+
+        <ListPreference
+            android:title="Typ mapy"
+            android:summary="Sposób wyświetlania mapy"
+            android:key="mapTypePref"
+            android:entries="@array/mapTypes"
+            android:entryValues="@array/mapTypes"
+            android:defaultValue="Normalna"/>
+
+
+        <CheckBoxPreference
+            android:key="darkStylePref"
+            android:title="Tryb nocny"
+            android:summary="Idelny do zwiedzania nocą"/>
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

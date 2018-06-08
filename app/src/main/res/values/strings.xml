@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Przewodnik</string>
+    <string name="title_activity_main">Przewodnik</string>
+    <string-array name="mapTypes">
+        <item>Satelita</item>
+        <item>Teren</item>
+        <item>Normalna</item>
+        <item>Hybryda</item>
+    </string-array>
+</resources>
